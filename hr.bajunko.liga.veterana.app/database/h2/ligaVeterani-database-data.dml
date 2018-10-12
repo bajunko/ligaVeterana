@@ -1,0 +1,13 @@
+--==============================================================
+-- Table: TEAM
+--==============================================================
+
+
+INSERT INTO TEAM (id,name) values(1,'Barcelona');
+
+--==============================================================
+-- Table: PLAYER
+--==============================================================
+insert into Player (id, team_id, name, number, position) values(1,1,'Lionel Messi', '10', 'Forward');
+insert into Player (id, team_id, name, number, position) values(2,1,'Andreas Inniesta', '8', 'Midfielder');
+insert into Player (id, team_id, name, number, position) values(3,1,'Pique', '3', 'Defender');
