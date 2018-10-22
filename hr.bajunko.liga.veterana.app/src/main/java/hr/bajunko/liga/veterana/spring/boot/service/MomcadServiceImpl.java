@@ -10,7 +10,7 @@ import hr.bajunko.liga.veterana.spring.boot.model.Player;
 import hr.bajunko.liga.veterana.spring.boot.repository.PlayerRepository;
 
 @Service
-public class MamcadServiceImpl implements MomcadService{
+public class MomcadServiceImpl implements MomcadService{
 	
 	  @Autowired
 	  private PlayerRepository playerRepository;

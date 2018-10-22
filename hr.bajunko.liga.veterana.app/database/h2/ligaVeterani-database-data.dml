@@ -3,7 +3,16 @@
 --==============================================================
 
 
-INSERT INTO TEAM (id,name) values(1,'Barcelona');
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(1,'Kamen', 7, 3, 0, 14, 2, 10, 24);
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(2,'Mracaj', 6, 2, 2, 21, 10, 11, 20);
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(3,'Rakitno');
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(4,'Makarska rivijera');
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(5,'Grude');
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(6,'Imotski');
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(7,'Croatia');
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(8,'Posusje');
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(9,'Mladost');
+INSERT INTO TEAM (id,name,pobjeda,nerijeseno,poraz,postignuti_golovi,primljeni_golovi,gol_razlika,bodovi) values(10,'Tomislav');
 
 --==============================================================
 -- Table: PLAYER
