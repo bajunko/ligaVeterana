@@ -8,7 +8,14 @@
 --==============================================================
 create table TEAM (
     ID                              integer         not null,
-    NAME                            varchar(100)     null,    
+    NAME                            varchar(100)     null,
+    UKUPNO                          integer         not null,        
+    POBJEDA                         integer         not null,        
+    NERIJESENO                      integer         not null,        
+    POSTIGNUTI_BROJEVI              integer         not null,        
+    PRIMLJENI_GOLOVI                integer         not null,        
+    GOL_RAZLIKA                     integer         not null,        
+    BODOVI                          integer         not null,        
     
     primary key (ID)
 );
